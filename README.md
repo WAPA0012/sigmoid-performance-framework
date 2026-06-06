@@ -2,6 +2,28 @@
 
 An empirical study showing that AI task performance follows a sigmoid function of mutual information: **performance = σ(α·I + β)**, where the inflection point at I = 0 provides a theoretically predicted anchor point.
 
+## Core Equation
+
+Cross-modal retrieval accuracy follows:
+
+```
+cos_acc = σ(a · (ratio - b))
+```
+
+where `ratio = δ_inter / δ_intra`, and for Gaussian embeddings:
+
+```
+I(X_a; X_b) = d · log(ratio)
+```
+
+Substituting gives:
+
+```
+performance = σ(α · I + β)
+```
+
+The inflection point **b ≈ 1** corresponds to **I = 0** (zero mutual information = random retrieval). This is confirmed on CLIP with b = 1.028 (causal experiment, R² = 0.950).
+
 ## Key Findings
 
 1. **Cross-modal sigmoid**: Retrieval accuracy follows `acc = σ(a·(ratio - b))` with **b ≈ 1** corresponding to zero mutual information (18 conditions across vision-audio retrieval)
