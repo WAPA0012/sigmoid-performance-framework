@@ -1,0 +1,65 @@
+[
+  {
+    "name": "CLIP Image Features (raw)",
+    "n_samples": 1000,
+    "n_dims": 512,
+    "mean_kurtosis": "2.9800682",
+    "mean_excess_kurt": "-0.01993171",
+    "mean_skew": "-0.008144937",
+    "pct_normal_dims": 0.6
+  },
+  {
+    "name": "CLIP Text Features (raw)",
+    "n_samples": 10,
+    "n_dims": 512,
+    "mean_kurtosis": "2.437181",
+    "mean_excess_kurt": "-0.5628191",
+    "mean_skew": "-0.0146158375",
+    "pct_normal_dims": 1.0
+  },
+  {
+    "name": "CLIP Image Features (L2-normalized)",
+    "n_samples": 1000,
+    "n_dims": 512,
+    "mean_kurtosis": "3.038959",
+    "mean_excess_kurt": "0.038958818",
+    "mean_skew": "-0.005226711",
+    "pct_normal_dims": 0.6
+  },
+  {
+    "name": "CLIP Text Features (L2-normalized)",
+    "n_samples": 10,
+    "n_dims": 512,
+    "mean_kurtosis": "2.4647603",
+    "mean_excess_kurt": "-0.5352396",
+    "mean_skew": "-0.013644459",
+    "pct_normal_dims": 1.0
+  },
+  {
+    "name": "CLIP Image Features - Class 'airplane' only",
+    "n_samples": 100,
+    "n_dims": 512,
+    "mean_kurtosis": "2.977587",
+    "mean_excess_kurt": "-0.022413038",
+    "mean_skew": "-0.0018760711",
+    "pct_normal_dims": 0.95
+  },
+  {
+    "name": "CLIP Image Features - Class 'automobile' only",
+    "n_samples": 100,
+    "n_dims": 512,
+    "mean_kurtosis": "3.0177035",
+    "mean_excess_kurt": "0.017703578",
+    "mean_skew": "-0.0064773345",
+    "pct_normal_dims": 1.0
+  },
+  {
+    "name": "CLIP Image Features - Class 'bird' only",
+    "n_samples": 100,
+    "n_dims": 512,
+    "mean_kurtosis": "2.9972324",
+    "mean_excess_kurt": "-0.0027677175",
+    "mean_skew": "-0.016331814",
+    "pct_normal_dims": 0.85
+  }
+]

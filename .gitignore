@@ -1,0 +1,20 @@
+# Model files
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Data (too large for repo)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
