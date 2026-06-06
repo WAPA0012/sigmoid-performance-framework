@@ -12,6 +12,20 @@ An empirical study showing that AI task performance follows a sigmoid function o
 
 4. **Gaussian assumption verified**: CLIP image features have excess kurtosis = −0.02, validating the I = d·log(ratio) derivation
 
+## Figures
+
+### Cross-modal sigmoid relationship (Section 3)
+![Cross-modal sigmoid](paper/fig1.png)
+
+### CLIP causal validation — 3 noise types produce the same sigmoid (Section 5.1)
+![CLIP causal](paper/fig_causal.png)
+
+### 14 LLM benchmark tasks — sigmoid vs power-law (Section 5.2)
+![LLM benchmarks](paper/fig4.png)
+
+### Pythia MMLU validation — 5 models, 70M to 2.8B (Section 5.3)
+![Pythia MMLU](paper/fig_mmlu.png)
+
 ## Repository Structure
 
 ```
